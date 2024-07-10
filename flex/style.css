@@ -1,0 +1,133 @@
+.maindiv{
+    display: flex;
+    /* border: 2px solid black; */
+     height: 80vh;
+    width: 80vw;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-content: center;
+    background-color:whitesmoke;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+ .item{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 140px;
+    width: 240px;
+    background-color:white;
+
+    /*justify-content: center;  */
+} 
+.item img{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.item h4{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.item p{
+     margin-top: 30px;
+    margin-left:-48px; 
+    opacity: 0.6;
+}
+.item h6{
+    margin-top: 50px;
+    margin-left: -90px;
+    color:green ;
+}
+.item h5
+{
+    margin-top: 80px;
+    margin-left: -140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item .stripee{
+    display: flex;
+    padding-left: 13px;
+}
+.item .amaz{
+    margin-top:80px;
+    padding-left: 45px;
+    /* margin-left:5px; */
+}
+.item .cam{
+   padding-top: 8px;
+    padding-left: 59px;
+}
+.item .drop{
+    padding-left: 30px;
+    padding-top: -15px;
+}
+.item .sales
+{
+    padding-top: -15px;
+    padding-left:30px ;
+}
+.item .mail{
+    padding-top: -15px;
+    padding-left: 26px;
+}
+.item table,td,tr{
+   /* border: 2px solid black;
+   border-collapse: collapse; */
+   padding: 0px;
+
+}
+.item #ama{
+    padding-left:10px;
+    text-align:left;
+    display: flex;
+}
+.item .stri{
+   margin-left: -40px;
+}
+.item #id1{
+    margin-left: -110px;
+}
+.item #id2{
+    margin-left: -60px;
+    display: flex;
+}
+.item .cams{
+    display: flex;
+   margin-left: -70px;
+}
+.item .cam{
+    padding-left: 20px;
+    padding-top: -15px;
+}
+.item .amazonn {
+    margin-left:-60px;
+}
+.item #id6{
+    margin-left: -75px;
+    display: flex;
+}
+
+.item .dropp{
+   /* padding-left: -20px; */
+   margin-left: -60px;
+   /* display: flex; */
+}
+.item #id3{
+    display: flex;
+    margin-left:-105px;
+}
+.item .salesf{
+    margin-left: -70px;
+}
+.item #id4{
+    display: flex;
+    margin-left: -130px;
+}
+.item .mailc{
+    margin-left: -75px;
+}
+.item #id5{
+    display: flex;
+    margin-left: -125px;
+}
