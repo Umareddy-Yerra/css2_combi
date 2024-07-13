@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery3{
+            height:200px;
+            width:100px;
+        }
+        .gallery1{
+            height:200px;
+            width:250px;
+        }
+        .gallery2{
+            height: 200px;
+            width:150px;
+        }
+        @media screen and (min-width:320px) and (max-width:425px)
+        {
+             .gallery1
+             {
+                border:5px solid black;
+                padding:10px; 
+                background-color: blue;
+                min-width:90px;
+                max-width:120px;
+                /* display:inline; */
+             }
+             .gallery2,.gallery3{
+                display: none;
+             }
+             
+        } 
+          @media screen and (min-width:425px) and (max-width:768px)
+         {
+              .gallery2
+              {
+                  border: 5px solid black;
+                  background-color: red; 
+                  padding: 20px;
+                  min-width: 10px;
+                  max-width:80px;
+              }
+              .gallery1,.gallery3{
+                display: none;
+              }
+         }   
+          @media screen and (min-width:768px) and (max-width:1024px)
+         {
+              .gallery3
+              {
+                  border: 2px solid black;
+                  background-color: green; 
+                  padding: 5px;
+                   min-width: 10px;
+                  max-width:100px;
+              }
+              .gallery1,.gallery2{
+                display: none;
+              }
+         } 
+         </style>
+         </head>
+         
+         <body>
+            <div>
+                 <img class="gallery1" src="./revanth.jpg"/>
+                 <img class="gallery1" src="./nature.avif" /><br>
+                 <img class="gallery1" src="./revanth.jpg" />
+                 <img class="gallery1" src="./nature.avif" /> 
+           </div> 
+           <div>
+            <img class="gallery2" src="./revanth.jpg" />
+            <img class="gallery2" src="./nature.avif" />
+           <img class="gallery2" src="./revanth.jpg" /><br>
+            <img class="gallery2" src="./nature.avif" /> 
+            <img class="gallery2" src="./revanth.jpg" />
+            <img class="gallery2" src="./nature.avif" /><br>
+            <img class="gallery2" src="./nature.avif" /> 
+            <img class="gallery2" src="./revanth.jpg" />
+            <img class="gallery2" src="./nature.avif" /> 
+             </div>
+       <div> 
+        <img class="gallery3" src="./revanth.jpg" />
+        <img class="gallery3" src="./nature.avif" />
+        <img class="gallery3" src="./revanth.jpg" />
+        <img class="gallery3" src="./nature.avif" /> <br>
+        <img class="gallery3" src="./revanth.jpg"/>
+        <img class="gallery3" src="./nature.avif" />
+        <img class="gallery3" src="./nature.avif" /> 
+        <img class="gallery3" src="./revanth.jpg" /><br>
+        <img class="gallery3" src="./nature.avif" />
+        <img class="gallery3" src="./revanth.jpg" />
+        <img class="gallery3" src="./nature.avif" />
+        <img class="gallery3" src="./revanth.jpg" /><br>
+        <img class="gallery3" src="./nature.avif" /> 
+        <img class="gallery3" src="./revanth.jpg" />
+        <img class="gallery3" src="./nature.avif" />
+        <img class="gallery3" src="./nature.avif" /> <br>
+       </div>
+       
+
+</body>
+</html>
